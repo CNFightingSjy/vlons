@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VLONS: Vision-and-Language On-device Navigation System</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #fafafa;
+      color: #222;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    h1, h2, h3 {
+      font-weight: 600;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .authors {
+      text-align: center;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #0056d6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    pre {
+      background: #f2f2f2;
+      padding: 15px;
+      overflow-x: auto;
+      border-radius: 5px;
+    }
+
+    video, iframe {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .pdf-button {
+      display: inline-block;
+      background: #0056d6;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      margin: 15px 0;
+    }
+
+    .pdf-button:hover {
+      background: #003e9e;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px 0;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Title -->
+    <h1 class="title">VLONS: A Vision-and-Language On-device Navigation System with Multimodal Fusion and Modular Framework</h1>
+
+    <!-- Authors -->
+    <p class="authors">
+      <em>Authors: (Fill your author names here)</em>
+    </p>
+
+    <!-- PDF link -->
+    <p style="text-align:center;">
+      <a href="paper.pdf" target="_blank" class="pdf-button">📄 Download Paper PDF</a>
+    </p>
+
+    <!-- Abstract -->
+    <div class="section">
+      <h2>Abstract</h2>
+      <p>
+        A fundamental challenge in embodied intelligence is developing vision-and-language navigation (VLN) systems
+        that operate efficiently on resource-constrained devices while possessing plug-and-play generalization
+        capabilities. Current approaches often struggle with edge-side inference, platform compatibility, and task
+        extensibility.
+
+        Inspired by the modular architecture of human cognition, we present VLONS (Vision-and-Language On-device
+        Navigation System), which introduces a novel framework for edge-optimized multimodal fusion and inference that
+        achieves precise semantic alignment while eliminating computational redundancies. Our key innovation lies in
+        decoupling the navigation pipeline into hierarchical computational modules that can be fully deployed on-device
+        while enabling the system to maintain state-of-the-art performance.
+
+        This architecture demonstrates remarkable zero-shot generalization to both dynamic and region navigation tasks.
+        Through extensive experimentation, we show that VLONS achieves an 11.5× improvement in retrieval efficiency and
+        a 1.46× boost in navigation accuracy compared to existing methods on the edge side, while matching the accuracy
+        of cloud-based deployment methods. Compared to the previous best cloud-based method based, inference latency has
+        improved by a factor of 5.93. The system’s generalizability has been further validated through practical
+        deployment across multiple robotic platforms, making it the first edge-side VLN to support heterogeneous robots
+        and multi-task navigation.
+      </p>
+    </div>
+
+    <!-- Video -->
+    <div class="section">
+      <h2>Video Demo</h2>
+      <p>You can upload your video to GitHub Releases or any external platform (YouTube/Bilibili). Then replace the link below.</p>
+
+      <!-- Placeholder for video after upload -->
+      <video controls>
+        <source src="demo.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+
+      <!-- If using Bilibili/YouTube, replace video block with iframe -->
+      <!--
+      <iframe src="https://www.youtube.com/embed/XXXXXX" allowfullscreen></iframe>
+      -->
+    </div>
+
+    <!-- Project Highlights -->
+    <div class="section">
+      <h2>Key Features of VLONS</h2>
+      <ul>
+        <li>Edge-optimized multimodal fusion pipeline</li>
+        <li>Modular hierarchical computation inspired by human cognition</li>
+        <li>Zero-shot generalization on dynamic & region navigation</li>
+        <li>11.5× retrieval efficiency improvement</li>
+        <li>1.46× boost in on-device navigation accuracy</li>
+        <li>5.93× faster inference compared to cloud-based models</li>
+        <li>Supports heterogeneous robots and multi-task navigation</li>
+      </ul>
+    </div>
+
+    <!-- BibTeX -->
+    <div class="section">
+      <h2>BibTeX</h2>
+      <pre>
+@article{vlons2025,
+  title={VLONS: A Vision-and-Language On-device Navigation System with Multimodal Fusion and Modular Framework},
+  author={Your Name and Others},
+  journal={2025},
+  year={2025}
+}
+      </pre>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      VLONS Project Page • Generated for GitHub Pages
+    </div>
+  </div>
+</body>
+
+</html>
